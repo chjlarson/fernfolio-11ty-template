@@ -73,6 +73,7 @@ collections:
   # Pages
   - name: "pages"
     label: "Page"
+    create: true
     slug: "{{slug}}"
     files:
 
