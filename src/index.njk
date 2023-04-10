@@ -12,7 +12,7 @@ section: home
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
-      <button formaction="/#contact">Connect With Me!</button>
+      <button><a href="/#contact">Connect With Me!</a></button>
     </div>
     <div class="hero__col">
       {% image
