@@ -12,7 +12,7 @@ section: home
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
-      <button>test</button>
+      <button formaction="/#contact">Connect With Me!</button>
     </div>
     <div class="hero__col">
       {% image
@@ -27,7 +27,7 @@ section: home
 
   {# Projects #}
   <div class="list-header">
-    <h2 class="list-header__title">Projects</h2>
+    <h2 class="list-header__title" id="projects">Projects</h2>
     <a class="btn btn--outline btn--sm" href="/projects">View All</a>
   </div>
   {% from "macros/projectlist.njk" import projectlist %}
@@ -35,7 +35,7 @@ section: home
 
   {# Articles #}
   <div class="list-header">
-    <h2 class="list-header__title">Articles</h2>
+    <h2 class="list-header__title" id="articles">Articles</h2>
     <a class="btn btn--outline btn--sm" href="/blog">View All</a>
   </div>
   {% from "macros/articlelist.njk" import articlelist %}
@@ -47,7 +47,7 @@ section: home
 
   {# Contact #}
   <div class="list-header">
-    <h2 class="list-header__title">Contact Me!</h2>
+    <h2 class="list-header__title" id="contact">Contact Me!</h2>
   </div>
     <div class="page-container">
     {{ layoutContent | safe }}
