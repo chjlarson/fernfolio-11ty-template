@@ -43,4 +43,15 @@ section: home
     show_tags = false,
     limit = 3
   ) }}
+
+  {# Contact #}
+  <div class="list-header">
+    <h2 class="list-header__title">Contact Me!</h2>
+  </div>
+    <div class="page-container">
+    <hr/>
+    {{ layoutContent | safe }}
+
+    {% include "partials/form.njk" %}
+  </div>
 </div>
