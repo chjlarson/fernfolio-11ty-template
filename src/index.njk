@@ -12,6 +12,7 @@ section: home
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
+      <button>test</button>
     </div>
     <div class="hero__col">
       {% image
@@ -49,9 +50,10 @@ section: home
     <h2 class="list-header__title">Contact Me!</h2>
   </div>
     <div class="page-container">
-    <hr/>
     {{ layoutContent | safe }}
 
     {% include "partials/form.njk" %}
   </div>
+
+{# End of the page #}
 </div>
