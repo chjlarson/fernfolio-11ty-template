@@ -1,6 +1,6 @@
 {
-  "title": "Fernfolio",
+  "title": "Hi, I'm Chris!",
   "image": "src/assets/img/fern-in-hand.jpeg",
   "image_alt": "Fern in hand",
-  "body": "The super simple portfolio template built with [Eleventy](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/)."
+  "body": "\n\n**Builder of programs websites, robots, and experiences**\n\nAvid problem-solver with a knack for communicating with other humans in such a way that they don't suspect that I have no idea what I'm doing"
 }
