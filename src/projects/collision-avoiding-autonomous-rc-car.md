@@ -2,11 +2,8 @@
 title: Collision Avoiding (Autonomous) RC Car
 emoji: 🚗
 date: 2017-08-01T05:00:18.356Z
-summary: This was my senior capstone I did while I was getting my BSCS. It's a
-  very modular system that I continue to pick pieces out of to make multiple
-  versions of this project over the years, including scaling this up to work
-  with my daughter's power wheel car! These are the original project files I use
-  and expand on when I start working on a new project that fits this scope.
+summary: Senior capstone project used to show basic AI and self-governing logic
+  along now used as a foundation for other AI projects.
 tags:
   - post
   - python
