@@ -25,9 +25,15 @@ section: home
     </div>
   </div>
 
+  {# About #}
+  <div class="list-header">
+    <h2 class="list-header__title" id="projects">About Me!</h2>
+  </div>
+  {% from "pages/about.md" %}
+
   {# Projects #}
   <div class="list-header">
-    <h2 class="list-header__title" id="projects">Projects</h2>
+    <h2 class="list-header__title" id="projects">Projects!</h2>
     <a class="btn btn--outline btn--sm" href="/projects">View All</a>
   </div>
   {% from "macros/projectlist.njk" import projectlist %}
@@ -35,7 +41,7 @@ section: home
 
   {# Articles #}
   <div class="list-header">
-    <h2 class="list-header__title" id="articles">Articles</h2>
+    <h2 class="list-header__title" id="articles">Articles!</h2>
     <a class="btn btn--outline btn--sm" href="/blog">View All</a>
   </div>
   {% from "macros/articlelist.njk" import articlelist %}
@@ -49,7 +55,7 @@ section: home
   <div class="list-header">
     <h2 class="list-header__title" id="contact">Connect With Me!</h2>
   </div>
-    <div class="page-container">
+  <div class="page-container">
     {{ layoutContent | safe }}
 
     {% include "partials/form.njk" %}
